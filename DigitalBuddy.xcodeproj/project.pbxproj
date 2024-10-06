@@ -362,7 +362,6 @@
 		4BDEE2152CB182EE005D5C40 /* DigitalBuddy */ = {
 			isa = PBXGroup;
 			children = (
-				4BDEE2472CB19380005D5C40 /* Navigation */,
 				4BDEE2442CB19356005D5C40 /* Sources */,
 				4BDEE21A2CB18300005D5C40 /* Assets.xcassets */,
 				4BDEE21C2CB18300005D5C40 /* Preview Content */,
@@ -398,6 +397,7 @@
 		4BDEE2442CB19356005D5C40 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4BDEE2472CB19380005D5C40 /* Navigation */,
 				4BA78EF32CB33C7700D72CB0 /* Modules */,
 				4BA78EB02CB2F86400D72CB0 /* Extensions */,
 			);
