@@ -7,13 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA78EAA2CB2F60400D72CB0 /* EmailVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EA92CB2F60400D72CB0 /* EmailVerificationView.swift */; };
+		4BA78EAD2CB2F62F00D72CB0 /* EmailVerificationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EAC2CB2F62F00D72CB0 /* EmailVerificationConstants.swift */; };
+		4BA78EAF2CB2F73000D72CB0 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EAE2CB2F73000D72CB0 /* SignUpViewModel.swift */; };
+		4BA78EB32CB2F87C00D72CB0 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EB22CB2F87C00D72CB0 /* View+Extensions.swift */; };
+		4BA78EB62CB2FCA400D72CB0 /* SignUpCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EB52CB2FCA400D72CB0 /* SignUpCoordinator.swift */; };
+		4BA78EB82CB2FCDA00D72CB0 /* SignUpScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EB72CB2FCD900D72CB0 /* SignUpScreens.swift */; };
+		4BA78EBE2CB3010600D72CB0 /* SignUpCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EBD2CB3010600D72CB0 /* SignUpCoordinatorView.swift */; };
+		4BA78EC02CB302F700D72CB0 /* CodeVerificationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EBF2CB302F700D72CB0 /* CodeVerificationConstants.swift */; };
+		4BA78EC22CB303B300D72CB0 /* CodeVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EC12CB303B300D72CB0 /* CodeVerificationView.swift */; };
+		4BA78EC62CB308F200D72CB0 /* UserSignUpFormConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EC52CB308F200D72CB0 /* UserSignUpFormConstants.swift */; };
+		4BA78EC92CB3099600D72CB0 /* ToolbarBackButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EC82CB3099600D72CB0 /* ToolbarBackButtonModifier.swift */; };
+		4BA78ECD2CB30DEC00D72CB0 /* UserSignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78ECC2CB30DEC00D72CB0 /* UserSignUpForm.swift */; };
+		4BA78ED12CB3113100D72CB0 /* AdaptiveForegroundStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78ED02CB3113100D72CB0 /* AdaptiveForegroundStyleModifier.swift */; };
+		4BA78ED32CB3139F00D72CB0 /* ConfirmationAppButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78ED22CB3139F00D72CB0 /* ConfirmationAppButtonStyle.swift */; };
+		4BA78ED52CB314DE00D72CB0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78ED42CB314DE00D72CB0 /* Color+Extension.swift */; };
+		4BA78EDA2CB324AE00D72CB0 /* RestorePasswordScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78ED92CB324AE00D72CB0 /* RestorePasswordScreens.swift */; };
+		4BA78EDC2CB3251A00D72CB0 /* RecoverPasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EDB2CB3251A00D72CB0 /* RecoverPasswordCoordinator.swift */; };
+		4BA78EDF2CB326D000D72CB0 /* RecoverPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EDE2CB326D000D72CB0 /* RecoverPasswordViewModel.swift */; };
+		4BA78EE32CB3276400D72CB0 /* RecoverPasswordEmailConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EE22CB3276400D72CB0 /* RecoverPasswordEmailConstants.swift */; };
+		4BA78EE52CB327EB00D72CB0 /* RecoverPasswordEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EE42CB327EB00D72CB0 /* RecoverPasswordEmailView.swift */; };
+		4BA78EE72CB32B4400D72CB0 /* RecoverPasswordCodeVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EE62CB32B4400D72CB0 /* RecoverPasswordCodeVerificationView.swift */; };
+		4BA78EEB2CB32C8100D72CB0 /* RecoverPasswordFormConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EEA2CB32C8100D72CB0 /* RecoverPasswordFormConstants.swift */; };
+		4BA78EEE2CB32E2300D72CB0 /* RecoverPasswordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EED2CB32E2300D72CB0 /* RecoverPasswordFormView.swift */; };
+		4BA78EF22CB3305400D72CB0 /* RecoverPasswordCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EF12CB3305400D72CB0 /* RecoverPasswordCoordinatorView.swift */; };
 		4BDEE2172CB182EE005D5C40 /* DigitalBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2162CB182EE005D5C40 /* DigitalBuddyApp.swift */; };
-		4BDEE2192CB182EE005D5C40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2182CB182EE005D5C40 /* ContentView.swift */; };
 		4BDEE21B2CB18300005D5C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDEE21A2CB18300005D5C40 /* Assets.xcassets */; };
 		4BDEE21E2CB18300005D5C40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDEE21D2CB18300005D5C40 /* Preview Assets.xcassets */; };
 		4BDEE2282CB18300005D5C40 /* DigitalBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2272CB18300005D5C40 /* DigitalBuddyTests.swift */; };
 		4BDEE2322CB18300005D5C40 /* DigitalBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2312CB18300005D5C40 /* DigitalBuddyUITests.swift */; };
 		4BDEE2342CB18300005D5C40 /* DigitalBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2332CB18300005D5C40 /* DigitalBuddyUITestsLaunchTests.swift */; };
+		4BDEE2492CB19398005D5C40 /* AppCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2482CB19398005D5C40 /* AppCoordinatorType.swift */; };
+		4BDEE2582CB19A0A005D5C40 /* SignInDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2572CB19A0A005D5C40 /* SignInDomain.swift */; };
+		4BDEE25D2CB19ACC005D5C40 /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE25C2CB19ACC005D5C40 /* SignInInteractor.swift */; };
+		4BDEE2602CB19BD9005D5C40 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE25F2CB19BD9005D5C40 /* SignInView.swift */; };
+		4BDEE2642CB19CA2005D5C40 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2632CB19CA2005D5C40 /* HeaderView.swift */; };
+		4BDEE26A2CB1B079005D5C40 /* SignInConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2692CB1B079005D5C40 /* SignInConstants.swift */; };
+		4BDEE26D2CB20C38005D5C40 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE26C2CB20C38005D5C40 /* CustomTextField.swift */; };
+		4BDEE26F2CB2132B005D5C40 /* CustomSecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE26E2CB2132B005D5C40 /* CustomSecureTextField.swift */; };
+		4BDEE2722CB216F2005D5C40 /* DefaultAppButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2712CB216F2005D5C40 /* DefaultAppButtonStyle.swift */; };
+		4BDEE2742CB21867005D5C40 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2732CB21867005D5C40 /* SignInViewModel.swift */; };
+		4BDEE2772CB23683005D5C40 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2762CB23683005D5C40 /* AppCoordinator.swift */; };
+		4BDEE2792CB23691005D5C40 /* AppPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE2782CB23691005D5C40 /* AppPages.swift */; };
+		4BDEE27B2CB23A4E005D5C40 /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEE27A2CB23A4E005D5C40 /* AppCoordinatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +70,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BA78EA92CB2F60400D72CB0 /* EmailVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationView.swift; sourceTree = "<group>"; };
+		4BA78EAC2CB2F62F00D72CB0 /* EmailVerificationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationConstants.swift; sourceTree = "<group>"; };
+		4BA78EAE2CB2F73000D72CB0 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		4BA78EB22CB2F87C00D72CB0 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		4BA78EB52CB2FCA400D72CB0 /* SignUpCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCoordinator.swift; sourceTree = "<group>"; };
+		4BA78EB72CB2FCD900D72CB0 /* SignUpScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreens.swift; sourceTree = "<group>"; };
+		4BA78EBD2CB3010600D72CB0 /* SignUpCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCoordinatorView.swift; sourceTree = "<group>"; };
+		4BA78EBF2CB302F700D72CB0 /* CodeVerificationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerificationConstants.swift; sourceTree = "<group>"; };
+		4BA78EC12CB303B300D72CB0 /* CodeVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerificationView.swift; sourceTree = "<group>"; };
+		4BA78EC52CB308F200D72CB0 /* UserSignUpFormConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUpFormConstants.swift; sourceTree = "<group>"; };
+		4BA78EC82CB3099600D72CB0 /* ToolbarBackButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarBackButtonModifier.swift; sourceTree = "<group>"; };
+		4BA78ECC2CB30DEC00D72CB0 /* UserSignUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUpForm.swift; sourceTree = "<group>"; };
+		4BA78ED02CB3113100D72CB0 /* AdaptiveForegroundStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveForegroundStyleModifier.swift; sourceTree = "<group>"; };
+		4BA78ED22CB3139F00D72CB0 /* ConfirmationAppButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationAppButtonStyle.swift; sourceTree = "<group>"; };
+		4BA78ED42CB314DE00D72CB0 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		4BA78ED92CB324AE00D72CB0 /* RestorePasswordScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorePasswordScreens.swift; sourceTree = "<group>"; };
+		4BA78EDB2CB3251A00D72CB0 /* RecoverPasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordCoordinator.swift; sourceTree = "<group>"; };
+		4BA78EDE2CB326D000D72CB0 /* RecoverPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordViewModel.swift; sourceTree = "<group>"; };
+		4BA78EE22CB3276400D72CB0 /* RecoverPasswordEmailConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordEmailConstants.swift; sourceTree = "<group>"; };
+		4BA78EE42CB327EB00D72CB0 /* RecoverPasswordEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordEmailView.swift; sourceTree = "<group>"; };
+		4BA78EE62CB32B4400D72CB0 /* RecoverPasswordCodeVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordCodeVerificationView.swift; sourceTree = "<group>"; };
+		4BA78EEA2CB32C8100D72CB0 /* RecoverPasswordFormConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordFormConstants.swift; sourceTree = "<group>"; };
+		4BA78EED2CB32E2300D72CB0 /* RecoverPasswordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordFormView.swift; sourceTree = "<group>"; };
+		4BA78EF12CB3305400D72CB0 /* RecoverPasswordCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordCoordinatorView.swift; sourceTree = "<group>"; };
 		4BDEE2132CB182EE005D5C40 /* DigitalBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDEE2162CB182EE005D5C40 /* DigitalBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBuddyApp.swift; sourceTree = "<group>"; };
-		4BDEE2182CB182EE005D5C40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BDEE21A2CB18300005D5C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BDEE21D2CB18300005D5C40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BDEE2232CB18300005D5C40 /* DigitalBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +103,19 @@
 		4BDEE22D2CB18300005D5C40 /* DigitalBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDEE2312CB18300005D5C40 /* DigitalBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBuddyUITests.swift; sourceTree = "<group>"; };
 		4BDEE2332CB18300005D5C40 /* DigitalBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BDEE2482CB19398005D5C40 /* AppCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorType.swift; sourceTree = "<group>"; };
+		4BDEE2572CB19A0A005D5C40 /* SignInDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInDomain.swift; sourceTree = "<group>"; };
+		4BDEE25C2CB19ACC005D5C40 /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		4BDEE25F2CB19BD9005D5C40 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		4BDEE2632CB19CA2005D5C40 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4BDEE2692CB1B079005D5C40 /* SignInConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInConstants.swift; sourceTree = "<group>"; };
+		4BDEE26C2CB20C38005D5C40 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4BDEE26E2CB2132B005D5C40 /* CustomSecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureTextField.swift; sourceTree = "<group>"; };
+		4BDEE2712CB216F2005D5C40 /* DefaultAppButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppButtonStyle.swift; sourceTree = "<group>"; };
+		4BDEE2732CB21867005D5C40 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		4BDEE2762CB23683005D5C40 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		4BDEE2782CB23691005D5C40 /* AppPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPages.swift; sourceTree = "<group>"; };
+		4BDEE27A2CB23A4E005D5C40 /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +143,192 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BA78EA62CB2F5A500D72CB0 /* SingUp */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EC32CB308C500D72CB0 /* UserSignUpForm */,
+				4BA78EB42CB2FC8A00D72CB0 /* SignUpCoordinator */,
+				4BA78EA72CB2F5BD00D72CB0 /* EmailVerification */,
+				4BA78EAE2CB2F73000D72CB0 /* SignUpViewModel.swift */,
+			);
+			path = SingUp;
+			sourceTree = "<group>";
+		};
+		4BA78EA72CB2F5BD00D72CB0 /* EmailVerification */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EAB2CB2F61F00D72CB0 /* Constants */,
+				4BA78EA82CB2F5DB00D72CB0 /* Views */,
+			);
+			path = EmailVerification;
+			sourceTree = "<group>";
+		};
+		4BA78EA82CB2F5DB00D72CB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EA92CB2F60400D72CB0 /* EmailVerificationView.swift */,
+				4BA78EC12CB303B300D72CB0 /* CodeVerificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BA78EAB2CB2F61F00D72CB0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EAC2CB2F62F00D72CB0 /* EmailVerificationConstants.swift */,
+				4BA78EBF2CB302F700D72CB0 /* CodeVerificationConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4BA78EB02CB2F86400D72CB0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EB22CB2F87C00D72CB0 /* View+Extensions.swift */,
+				4BA78ED42CB314DE00D72CB0 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4BA78EB42CB2FC8A00D72CB0 /* SignUpCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EB52CB2FCA400D72CB0 /* SignUpCoordinator.swift */,
+				4BA78EB72CB2FCD900D72CB0 /* SignUpScreens.swift */,
+				4BA78EBD2CB3010600D72CB0 /* SignUpCoordinatorView.swift */,
+			);
+			path = SignUpCoordinator;
+			sourceTree = "<group>";
+		};
+		4BA78EC32CB308C500D72CB0 /* UserSignUpForm */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78ECB2CB30DCD00D72CB0 /* Views */,
+				4BA78EC42CB308DD00D72CB0 /* Constants */,
+			);
+			path = UserSignUpForm;
+			sourceTree = "<group>";
+		};
+		4BA78EC42CB308DD00D72CB0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EC52CB308F200D72CB0 /* UserSignUpFormConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4BA78EC72CB3098400D72CB0 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78ECA2CB30B4600D72CB0 /* Modifiers */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4BA78ECA2CB30B4600D72CB0 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EC82CB3099600D72CB0 /* ToolbarBackButtonModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		4BA78ECB2CB30DCD00D72CB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78ECC2CB30DEC00D72CB0 /* UserSignUpForm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BA78ECE2CB3111E00D72CB0 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78ECF2CB3112400D72CB0 /* Modifiers */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		4BA78ECF2CB3112400D72CB0 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78ED02CB3113100D72CB0 /* AdaptiveForegroundStyleModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		4BA78ED72CB3248700D72CB0 /* RecoverPassword */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EE82CB32C5700D72CB0 /* RecoverPasswordForm */,
+				4BA78EDD2CB3266C00D72CB0 /* RecoverPasswordEmail */,
+				4BA78ED82CB3249800D72CB0 /* RecoverPasswordCoordinator */,
+				4BA78EDE2CB326D000D72CB0 /* RecoverPasswordViewModel.swift */,
+			);
+			path = RecoverPassword;
+			sourceTree = "<group>";
+		};
+		4BA78ED82CB3249800D72CB0 /* RecoverPasswordCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78ED92CB324AE00D72CB0 /* RestorePasswordScreens.swift */,
+				4BA78EDB2CB3251A00D72CB0 /* RecoverPasswordCoordinator.swift */,
+				4BA78EF12CB3305400D72CB0 /* RecoverPasswordCoordinatorView.swift */,
+			);
+			path = RecoverPasswordCoordinator;
+			sourceTree = "<group>";
+		};
+		4BA78EDD2CB3266C00D72CB0 /* RecoverPasswordEmail */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EE12CB3274C00D72CB0 /* Constants */,
+				4BA78EE02CB3272300D72CB0 /* Views */,
+			);
+			path = RecoverPasswordEmail;
+			sourceTree = "<group>";
+		};
+		4BA78EE02CB3272300D72CB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EE42CB327EB00D72CB0 /* RecoverPasswordEmailView.swift */,
+				4BA78EE62CB32B4400D72CB0 /* RecoverPasswordCodeVerificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BA78EE12CB3274C00D72CB0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EE22CB3276400D72CB0 /* RecoverPasswordEmailConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4BA78EE82CB32C5700D72CB0 /* RecoverPasswordForm */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EEC2CB32E0200D72CB0 /* Views */,
+				4BA78EE92CB32C7300D72CB0 /* Constants */,
+			);
+			path = RecoverPasswordForm;
+			sourceTree = "<group>";
+		};
+		4BA78EE92CB32C7300D72CB0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EEA2CB32C8100D72CB0 /* RecoverPasswordFormConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4BA78EEC2CB32E0200D72CB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EED2CB32E2300D72CB0 /* RecoverPasswordFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4BDEE20A2CB182EE005D5C40 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +352,8 @@
 		4BDEE2152CB182EE005D5C40 /* DigitalBuddy */ = {
 			isa = PBXGroup;
 			children = (
-				4BDEE2162CB182EE005D5C40 /* DigitalBuddyApp.swift */,
-				4BDEE2182CB182EE005D5C40 /* ContentView.swift */,
+				4BDEE2472CB19380005D5C40 /* Navigation */,
+				4BDEE2442CB19356005D5C40 /* Sources */,
 				4BDEE21A2CB18300005D5C40 /* Assets.xcassets */,
 				4BDEE21C2CB18300005D5C40 /* Preview Content */,
 			);
@@ -125,6 +383,144 @@
 				4BDEE2332CB18300005D5C40 /* DigitalBuddyUITestsLaunchTests.swift */,
 			);
 			path = DigitalBuddyUITests;
+			sourceTree = "<group>";
+		};
+		4BDEE2442CB19356005D5C40 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78EB02CB2F86400D72CB0 /* Extensions */,
+				4BDEE2612CB19C35005D5C40 /* UIComponents */,
+				4BDEE24D2CB1970E005D5C40 /* Auth */,
+				4BDEE2452CB19360005D5C40 /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4BDEE2452CB19360005D5C40 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2752CB2365A005D5C40 /* Coordinator */,
+				4BDEE2162CB182EE005D5C40 /* DigitalBuddyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4BDEE2472CB19380005D5C40 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2482CB19398005D5C40 /* AppCoordinatorType.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4BDEE24D2CB1970E005D5C40 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2532CB19821005D5C40 /* Modules */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		4BDEE2532CB19821005D5C40 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78ED72CB3248700D72CB0 /* RecoverPassword */,
+				4BA78EA62CB2F5A500D72CB0 /* SingUp */,
+				4BDEE2542CB19997005D5C40 /* SingIn */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4BDEE2542CB19997005D5C40 /* SingIn */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2682CB1B018005D5C40 /* Constants */,
+				4BDEE25E2CB19BA8005D5C40 /* Views */,
+				4BDEE25B2CB19AA8005D5C40 /* Interactor */,
+				4BDEE2552CB199A5005D5C40 /* Model */,
+				4BDEE2732CB21867005D5C40 /* SignInViewModel.swift */,
+			);
+			path = SingIn;
+			sourceTree = "<group>";
+		};
+		4BDEE2552CB199A5005D5C40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2572CB19A0A005D5C40 /* SignInDomain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BDEE25B2CB19AA8005D5C40 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE25C2CB19ACC005D5C40 /* SignInInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4BDEE25E2CB19BA8005D5C40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE25F2CB19BD9005D5C40 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BDEE2612CB19C35005D5C40 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78ECE2CB3111E00D72CB0 /* Color */,
+				4BA78EC72CB3098400D72CB0 /* Navigation */,
+				4BDEE2702CB21695005D5C40 /* Button */,
+				4BDEE26B2CB20C1B005D5C40 /* TextField */,
+				4BDEE2622CB19C78005D5C40 /* HeaderView */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		4BDEE2622CB19C78005D5C40 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2632CB19CA2005D5C40 /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		4BDEE2682CB1B018005D5C40 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2692CB1B079005D5C40 /* SignInConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4BDEE26B2CB20C1B005D5C40 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE26C2CB20C38005D5C40 /* CustomTextField.swift */,
+				4BDEE26E2CB2132B005D5C40 /* CustomSecureTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		4BDEE2702CB21695005D5C40 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2712CB216F2005D5C40 /* DefaultAppButtonStyle.swift */,
+				4BA78ED22CB3139F00D72CB0 /* ConfirmationAppButtonStyle.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		4BDEE2752CB2365A005D5C40 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2762CB23683005D5C40 /* AppCoordinator.swift */,
+				4BDEE2782CB23691005D5C40 /* AppPages.swift */,
+				4BDEE27A2CB23A4E005D5C40 /* AppCoordinatorView.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +609,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 4BDEE20A2CB182EE005D5C40;
 			productRefGroup = 4BDEE2142CB182EE005D5C40 /* Products */;
@@ -257,8 +654,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDEE2192CB182EE005D5C40 /* ContentView.swift in Sources */,
+				4BA78ED12CB3113100D72CB0 /* AdaptiveForegroundStyleModifier.swift in Sources */,
+				4BDEE2582CB19A0A005D5C40 /* SignInDomain.swift in Sources */,
+				4BA78EAD2CB2F62F00D72CB0 /* EmailVerificationConstants.swift in Sources */,
+				4BA78EB82CB2FCDA00D72CB0 /* SignUpScreens.swift in Sources */,
+				4BDEE26A2CB1B079005D5C40 /* SignInConstants.swift in Sources */,
+				4BDEE27B2CB23A4E005D5C40 /* AppCoordinatorView.swift in Sources */,
+				4BA78EC92CB3099600D72CB0 /* ToolbarBackButtonModifier.swift in Sources */,
+				4BA78EAF2CB2F73000D72CB0 /* SignUpViewModel.swift in Sources */,
+				4BDEE2492CB19398005D5C40 /* AppCoordinatorType.swift in Sources */,
+				4BDEE2742CB21867005D5C40 /* SignInViewModel.swift in Sources */,
+				4BA78EB62CB2FCA400D72CB0 /* SignUpCoordinator.swift in Sources */,
+				4BDEE26D2CB20C38005D5C40 /* CustomTextField.swift in Sources */,
+				4BA78ECD2CB30DEC00D72CB0 /* UserSignUpForm.swift in Sources */,
+				4BA78EAA2CB2F60400D72CB0 /* EmailVerificationView.swift in Sources */,
+				4BA78EDF2CB326D000D72CB0 /* RecoverPasswordViewModel.swift in Sources */,
+				4BDEE2772CB23683005D5C40 /* AppCoordinator.swift in Sources */,
+				4BA78EC02CB302F700D72CB0 /* CodeVerificationConstants.swift in Sources */,
+				4BA78EDC2CB3251A00D72CB0 /* RecoverPasswordCoordinator.swift in Sources */,
+				4BA78EEB2CB32C8100D72CB0 /* RecoverPasswordFormConstants.swift in Sources */,
+				4BDEE2722CB216F2005D5C40 /* DefaultAppButtonStyle.swift in Sources */,
 				4BDEE2172CB182EE005D5C40 /* DigitalBuddyApp.swift in Sources */,
+				4BA78EF22CB3305400D72CB0 /* RecoverPasswordCoordinatorView.swift in Sources */,
+				4BDEE2792CB23691005D5C40 /* AppPages.swift in Sources */,
+				4BDEE25D2CB19ACC005D5C40 /* SignInInteractor.swift in Sources */,
+				4BA78EE32CB3276400D72CB0 /* RecoverPasswordEmailConstants.swift in Sources */,
+				4BA78EC22CB303B300D72CB0 /* CodeVerificationView.swift in Sources */,
+				4BA78ED52CB314DE00D72CB0 /* Color+Extension.swift in Sources */,
+				4BDEE2602CB19BD9005D5C40 /* SignInView.swift in Sources */,
+				4BDEE26F2CB2132B005D5C40 /* CustomSecureTextField.swift in Sources */,
+				4BA78EB32CB2F87C00D72CB0 /* View+Extensions.swift in Sources */,
+				4BDEE2642CB19CA2005D5C40 /* HeaderView.swift in Sources */,
+				4BA78EE72CB32B4400D72CB0 /* RecoverPasswordCodeVerificationView.swift in Sources */,
+				4BA78EC62CB308F200D72CB0 /* UserSignUpFormConstants.swift in Sources */,
+				4BA78EDA2CB324AE00D72CB0 /* RestorePasswordScreens.swift in Sources */,
+				4BA78EE52CB327EB00D72CB0 /* RecoverPasswordEmailView.swift in Sources */,
+				4BA78ED32CB3139F00D72CB0 /* ConfirmationAppButtonStyle.swift in Sources */,
+				4BA78EEE2CB32E2300D72CB0 /* RecoverPasswordFormView.swift in Sources */,
+				4BA78EBE2CB3010600D72CB0 /* SignUpCoordinatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

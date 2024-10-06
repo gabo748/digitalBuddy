@@ -11,7 +11,7 @@ import SwiftUI
 struct DigitalBuddyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppCoordinatorView()
         }
     }
 }
