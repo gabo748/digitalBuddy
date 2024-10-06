@@ -329,6 +329,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4BA78EF32CB33C7700D72CB0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEE2452CB19360005D5C40 /* App */,
+				4BDEE24D2CB1970E005D5C40 /* Auth */,
+				4BDEE2612CB19C35005D5C40 /* UIComponents */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		4BDEE20A2CB182EE005D5C40 = {
 			isa = PBXGroup;
 			children = (
@@ -388,10 +398,8 @@
 		4BDEE2442CB19356005D5C40 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4BA78EF32CB33C7700D72CB0 /* Modules */,
 				4BA78EB02CB2F86400D72CB0 /* Extensions */,
-				4BDEE2612CB19C35005D5C40 /* UIComponents */,
-				4BDEE24D2CB1970E005D5C40 /* Auth */,
-				4BDEE2452CB19360005D5C40 /* App */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -399,7 +407,7 @@
 		4BDEE2452CB19360005D5C40 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				4BDEE2752CB2365A005D5C40 /* Coordinator */,
+				4BDEE2752CB2365A005D5C40 /* AppCoordinator */,
 				4BDEE2162CB182EE005D5C40 /* DigitalBuddyApp.swift */,
 			);
 			path = App;
@@ -416,19 +424,11 @@
 		4BDEE24D2CB1970E005D5C40 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				4BDEE2532CB19821005D5C40 /* Modules */,
+				4BDEE2542CB19997005D5C40 /* SingIn */,
+				4BA78EA62CB2F5A500D72CB0 /* SingUp */,
+				4BA78ED72CB3248700D72CB0 /* RecoverPassword */,
 			);
 			path = Auth;
-			sourceTree = "<group>";
-		};
-		4BDEE2532CB19821005D5C40 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				4BA78ED72CB3248700D72CB0 /* RecoverPassword */,
-				4BA78EA62CB2F5A500D72CB0 /* SingUp */,
-				4BDEE2542CB19997005D5C40 /* SingIn */,
-			);
-			path = Modules;
 			sourceTree = "<group>";
 		};
 		4BDEE2542CB19997005D5C40 /* SingIn */ = {
@@ -513,14 +513,14 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
-		4BDEE2752CB2365A005D5C40 /* Coordinator */ = {
+		4BDEE2752CB2365A005D5C40 /* AppCoordinator */ = {
 			isa = PBXGroup;
 			children = (
 				4BDEE2762CB23683005D5C40 /* AppCoordinator.swift */,
 				4BDEE2782CB23691005D5C40 /* AppPages.swift */,
 				4BDEE27A2CB23A4E005D5C40 /* AppCoordinatorView.swift */,
 			);
-			path = Coordinator;
+			path = AppCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
