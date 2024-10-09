@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B73BDD02CB4BB430095C6E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73BDCF2CB4BB430095C6E4 /* HomeView.swift */; };
+		4B73BDD32CB4BEDC0095C6E4 /* TodoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73BDD22CB4BEDC0095C6E4 /* TodoCard.swift */; };
 		4BA78EAA2CB2F60400D72CB0 /* EmailVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EA92CB2F60400D72CB0 /* EmailVerificationView.swift */; };
 		4BA78EAD2CB2F62F00D72CB0 /* EmailVerificationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EAC2CB2F62F00D72CB0 /* EmailVerificationConstants.swift */; };
 		4BA78EAF2CB2F73000D72CB0 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78EAE2CB2F73000D72CB0 /* SignUpViewModel.swift */; };
@@ -70,6 +72,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B73BDCF2CB4BB430095C6E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4B73BDD22CB4BEDC0095C6E4 /* TodoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCard.swift; sourceTree = "<group>"; };
 		4BA78EA92CB2F60400D72CB0 /* EmailVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationView.swift; sourceTree = "<group>"; };
 		4BA78EAC2CB2F62F00D72CB0 /* EmailVerificationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationConstants.swift; sourceTree = "<group>"; };
 		4BA78EAE2CB2F73000D72CB0 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
@@ -143,6 +147,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B73BDCC2CB4BB020095C6E4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4B73BDCE2CB4BB230095C6E4 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4B73BDCE2CB4BB230095C6E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B73BDCF2CB4BB430095C6E4 /* HomeView.swift */,
+				4B73BDD22CB4BEDC0095C6E4 /* TodoCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4BA78EA62CB2F5A500D72CB0 /* SingUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +353,7 @@
 		4BA78EF32CB33C7700D72CB0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4B73BDCC2CB4BB020095C6E4 /* Home */,
 				4BDEE2452CB19360005D5C40 /* App */,
 				4BDEE24D2CB1970E005D5C40 /* Auth */,
 				4BDEE2612CB19C35005D5C40 /* UIComponents */,
@@ -669,6 +691,7 @@
 				4BA78ECD2CB30DEC00D72CB0 /* UserSignUpForm.swift in Sources */,
 				4BA78EAA2CB2F60400D72CB0 /* EmailVerificationView.swift in Sources */,
 				4BA78EDF2CB326D000D72CB0 /* RecoverPasswordViewModel.swift in Sources */,
+				4B73BDD02CB4BB430095C6E4 /* HomeView.swift in Sources */,
 				4BDEE2772CB23683005D5C40 /* AppCoordinator.swift in Sources */,
 				4BA78EC02CB302F700D72CB0 /* CodeVerificationConstants.swift in Sources */,
 				4BA78EDC2CB3251A00D72CB0 /* RecoverPasswordCoordinator.swift in Sources */,
@@ -686,6 +709,7 @@
 				4BA78EB32CB2F87C00D72CB0 /* View+Extensions.swift in Sources */,
 				4BDEE2642CB19CA2005D5C40 /* HeaderView.swift in Sources */,
 				4BA78EE72CB32B4400D72CB0 /* RecoverPasswordCodeVerificationView.swift in Sources */,
+				4B73BDD32CB4BEDC0095C6E4 /* TodoCard.swift in Sources */,
 				4BA78EC62CB308F200D72CB0 /* UserSignUpFormConstants.swift in Sources */,
 				4BA78EDA2CB324AE00D72CB0 /* RestorePasswordScreens.swift in Sources */,
 				4BA78EE52CB327EB00D72CB0 /* RecoverPasswordEmailView.swift in Sources */,
